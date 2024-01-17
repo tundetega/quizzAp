@@ -1,0 +1,20 @@
+body{
+    overflow-x: hidden;
+}
+section{
+    height: 100px;
+}
+form{
+    position: relative;
+}
+form .wrapper{
+    transition: 2s ease;
+}
+form .questions{
+    transition: 2s ease;
+}
+form .hide{
+    position:absolute;
+    top:0;
+    left:-1000px;
+}
